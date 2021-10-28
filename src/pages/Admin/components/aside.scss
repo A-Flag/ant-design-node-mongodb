@@ -1,0 +1,59 @@
+.logo {
+    float: left;
+    width: 250px;
+    height: 75px;
+    margin-left: -50px;
+    align-items: center;
+    justify-content: center;
+    background-color: #001529;
+    -webkit-transition: all .2s ease 0s;
+    -moz-transition: all .2s ease 0s;
+    -ms-transition: all .2s ease 0s;
+    -o-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+    span {
+        min-width: 200px;
+        height: 30px;
+        line-height: 30px;
+        text-align: left;
+        font-size: 16px;
+        // background-color: #E1FFFF;
+        color: #FFD700;
+        display: inline-block;
+        border-radius:8px ;
+    }
+}
+.collapsed-close {
+    
+    .logo { 
+        width: 80px; 
+        span { width: 100%; }
+    }
+    .header-wrap {
+        margin-left: 65px;
+    }
+}
+.header-wrap {
+    margin-left: 220px;
+    -webkit-transition: all .2s ease 0s;
+    -moz-transition: all .2s ease 0s;
+    -ms-transition: all .2s ease 0s;
+    -o-transition: all .2s ease 0s;
+    transition: all .2s ease 0s;
+}
+.collapsed-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.ant-menu li{
+    text-align: left;
+}
+.header-wrap{
+    text-align: left;
+}
+.personal-hover p:hover{
+    background-color: #ccc;
+    font-size: 15px;
+    cursor: pointer;
+  
+}

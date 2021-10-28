@@ -1,0 +1,1 @@
+export const SYNC_INFO = 'SYNC_INFO'
